@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="647.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telas.menu.ControllerAutenticarSimulado">
+   <children>
+      <TextField fx:id="cpf" layoutX="200.0" layoutY="132.0" />
+      <TextField fx:id="id" layoutX="200.0" layoutY="188.0" />
+      <Label layoutX="120.0" layoutY="136.0" text="cpf" />
+      <Label layoutX="97.0" layoutY="192.0" text="id do Simulado" />
+      <Label layoutX="129.0" layoutY="54.0" text="Selecione O simulado à ser respondido">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="listaSimulado" layoutX="33.0" layoutY="296.0" prefHeight="200.0" prefWidth="468.0" />
+      <Label layoutX="223.0" layoutY="249.0" text="Lista dos simulados" />
+      <Button fx:id="voltarAct" layoutX="53.0" layoutY="581.0" mnemonicParsing="false" onAction="#voltarAct" text="voltar" />
+      <Button fx:id="okAct" layoutX="449.0" layoutY="581.0" mnemonicParsing="false" onAction="#okAct" text="OK" />
+      <TextField fx:id="eventos" layoutX="200.0" layoutY="532.0" promptText="eventos" />
+   </children>
+</AnchorPane>
